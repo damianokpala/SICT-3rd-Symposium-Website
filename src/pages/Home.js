@@ -2,19 +2,20 @@
 
 import React from "react";
 import Header from "../components/Header";
+import Register from "../components/Register";
+import Event from "../components/Event";
 import Footer from "../components/Footer";
-import styles from "./Home.css";
 
 const Home = () => {
   return (
-    <div>
+    <>
       <Header />
       <main>
-        <h2>Welcome to the Home Page</h2>
-        <p>This is the home page content.</p>
+        <Register />
+        <Event />
       </main>
       <Footer />
-    </div>
+    </>
   );
 };
 

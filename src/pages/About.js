@@ -2,6 +2,7 @@
 
 import React from "react";
 import Header from "../components/Header";
+import Event from "../components/Event";
 import Footer from "../components/Footer";
 
 const About = () => {
@@ -9,8 +10,7 @@ const About = () => {
     <div>
       <Header />
       <main>
-        <h2>About Us</h2>
-        <p>This is the about page content.</p>
+        <Event />
       </main>
       <Footer />
     </div>

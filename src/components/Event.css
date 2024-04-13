@@ -1,0 +1,122 @@
+.event__section {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.event__section .container {
+  display: grid;
+  column-gap: 6.8rem;
+  grid-template-columns: 5fr 7fr;
+}
+
+.enquire__section {
+  border: 0.31rem solid var(--primary-color);
+  padding: 4rem;
+}
+
+.other_headings {
+  font-size: 2.4rem;
+}
+
+.contacts {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 5.6rem;
+}
+
+.contact {
+  display: grid;
+  grid-template-columns: 6em auto;
+  align-items: center;
+}
+
+.contact__image,
+.external__image {
+  width: 5em;
+  border-radius: 50%;
+  aspect-ratio: 1;
+}
+
+.contact__info {
+  --flow-spacing: 0.4rem;
+}
+
+.contact__info > span:first-child,
+.external__name {
+  font-size: 2.4rem;
+  font-weight: 500;
+  display: block;
+}
+
+.contact_position {
+  display: flex;
+}
+
+.contact_position span {
+  font-weight: 300;
+  display: flex;
+  gap: 1.4rem;
+  margin-left: 1rem;
+}
+/* 
+.contact__info span:last-child {
+  gap: 1rem;
+} */
+
+.contact__details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-top: 1.2rem;
+}
+
+.contact__details span {
+  display: flex;
+  gap: 1.1rem;
+}
+
+.contact__details a {
+  font-style: italic;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.tel-icon,
+.mail-icon {
+  width: 1.8rem;
+}
+
+.external__section {
+  --flow-spacing: 0.8em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.external__position {
+  display: inline-block;
+  font-size: 1.4rem;
+  background-color: var(--primary-color);
+  border: 1.8px solid #000000;
+  color: var(--white-color);
+  padding: 0.6rem 1.2rem;
+}
+
+.details__section {
+  padding-top: 8rem;
+  padding-bottom: 1.4rem;
+}
+
+.events {
+  display: flex;
+  gap: 2.8rem;
+}
+
+.event {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.event img {
+  width: 3rem;
+}

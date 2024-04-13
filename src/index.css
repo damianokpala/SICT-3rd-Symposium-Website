@@ -53,7 +53,11 @@ body {
   font-weight: normal;
 }
 
-/* Utilities */
+/* ****************** 
+Utilities 
+********************** */
+
+/* Layout */
 .container {
   max-width: 140rem;
   margin-top: var(--container-spacing);
@@ -62,11 +66,19 @@ body {
   margin-right: auto;
 }
 
+/* Aligning */
+
 .f-align-center {
   display: flex;
   align-items: center;
 }
 
+/* Spacing */
+.flow-content > * + * {
+  margin-top: var(--flow-spacing, 2.6rem);
+}
+
+/* Component Syling */
 .btn {
   padding: 1.2rem 3.6rem;
 }

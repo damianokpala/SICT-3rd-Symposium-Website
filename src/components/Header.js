@@ -2,7 +2,7 @@
 
 import React from "react";
 import logo from "../assets/icons/logo.svg";
-import styles from "./Header.css";
+import {} from "./Header.css";
 
 const Header = () => {
   return (
