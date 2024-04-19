@@ -1,0 +1,38 @@
+.home_hero__section {
+  text-align: center;
+  padding: 5rem;
+
+  .subtitle {
+    font-size: 2rem;
+  }
+
+  .primary_heading {
+    font-size: 4.4rem;
+    color: var(--primary-color);
+  }
+
+  .hero_flyer {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero_des {
+    font-size: 2.4rem;
+    font-weight: 300;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+  }
+
+  .btn {
+    font-size: 2rem;
+    margin-top: 3em;
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+  }
+}

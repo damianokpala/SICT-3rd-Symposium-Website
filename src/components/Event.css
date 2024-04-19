@@ -33,7 +33,7 @@
 .contact__image,
 .external__image {
   width: 5em;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   aspect-ratio: 1;
 }
 

@@ -1,0 +1,61 @@
+.home_about__section {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+
+  .container {
+    text-align: center;
+    padding: 5em 3rem;
+  }
+
+  .secondary_heading {
+    font-size: 3.6rem;
+  }
+
+  .about__des {
+    font-size: 1.8rem;
+    line-height: 2;
+    margin-bottom: 6rem;
+  }
+
+  .steps {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3.8rem;
+
+    display: flex;
+    gap: 6rem;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .step {
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    p {
+      font-size: 2rem;
+      font-weight: 700;
+      text-align: center;
+    }
+    img {
+      width: 40%;
+      display: block;
+    }
+  }
+
+  .step-before::before {
+    content: url("../assets/icons/dots.svg");
+    display: flex;
+  }
+
+  .step-2 {
+    p {
+      order: 1;
+    }
+  }
+}

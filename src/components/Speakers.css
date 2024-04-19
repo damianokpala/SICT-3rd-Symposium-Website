@@ -1,0 +1,21 @@
+.home_speakers__section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+
+  .speakers {
+    display: grid;
+    gap: 4rem;
+    grid-template-columns: repeat(3, 1fr);
+    .speaker {
+      h3 {
+        font-size: 2.8rem;
+        line-height: 0;
+      }
+      border: 2px solid var(--primary-color);
+      padding: 4rem;
+      img {
+        width: 12rem;
+      }
+    }
+  }
+}

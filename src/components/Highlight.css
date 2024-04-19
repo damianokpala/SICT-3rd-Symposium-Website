@@ -1,0 +1,50 @@
+.home_highlight__section {
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+
+  .container {
+    text-align: center;
+    padding-top: 2rem;
+    padding: auto;
+  }
+
+  .secondary_heading {
+    font-size: 3.6rem;
+    margin-bottom: 1em;
+  }
+
+  .grid-2 {
+    display: grid;
+    gap: 8rem;
+    grid-template-columns: 4fr 5fr;
+
+    .grid-two {
+      margin-top: auto;
+      .list {
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+      }
+
+      .list-item img,
+      .icon {
+        width: 24px;
+        margin-right: 2rem;
+      }
+
+      .bttn {
+        width: fit-content;
+        margin-top: 8rem;
+
+        .btn {
+          text-decoration: none;
+          font: inherit;
+          color: inherit;
+          border-bottom: 2px solid var(--primary-color);
+          padding-right: 0;
+          margin-right: 2rem;
+        }
+      }
+    }
+  }
+}
