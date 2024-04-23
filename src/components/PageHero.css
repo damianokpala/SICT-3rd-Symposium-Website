@@ -1,0 +1,28 @@
+.page-hero-section {
+  padding: 20rem;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+
+  .center-content {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+    > * + * {
+      margin-top: 2.1em;
+    }
+
+    h1 {
+      font-size: 4rem;
+    }
+
+    nav {
+      ul {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+      }
+    }
+  }
+}
