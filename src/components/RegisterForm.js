@@ -30,13 +30,25 @@ const RegForm = () => {
             </div>
 
             <div className="form-group">
-              <label for="">Institution:</label>
-              <input
-                type="text"
-                name="fullname"
-                id="fullname"
-                placeholder="Cambridge University"
-              />
+              <label for="">Department:</label>
+
+              <select for="">
+                <option value="Computer Science" key="cam">
+                  Computer Science
+                </option>
+
+                <option value="Software Engineering" key="cam">
+                  Software Engineering
+                </option>
+
+                <option value="Cyber Security" key="cam">
+                  Cyber Security
+                </option>
+
+                <option value="Information Technology" key="cam">
+                  Information Technology
+                </option>
+              </select>
             </div>
 
             <div className="form-group">

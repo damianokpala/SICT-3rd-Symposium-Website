@@ -1,0 +1,29 @@
+.about-mission-section {
+  padding: 4rem;
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+
+    h2 {
+      font-size: 3rem;
+    }
+    p {
+      font-size: 2rem;
+      line-height: 1.6;
+    }
+  }
+
+  .icons {
+    display: flex;
+    justify-content: space-around;
+    padding: 6rem 2rem;
+
+    img {
+      width: 12rem;
+    }
+  }
+}

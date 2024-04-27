@@ -28,7 +28,7 @@ const Footer = () => {
             <img src={ffsLogo} alt="Future of Food Symposium Logo" />
           </a>
         </div>
-        <p>&copy; Symposium 2024</p>
+        <p>&copy; Symposium 2024 - GROUP 32</p>
         <div className="socials">
           <h5>Follow us</h5>
 

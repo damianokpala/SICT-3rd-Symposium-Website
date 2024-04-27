@@ -1,7 +1,7 @@
 footer {
   background-color: var(--primary-color);
-  padding-top: calc(var(--spacing) / 3);
-  padding-bottom: calc(var(--spacing) / 3);
+  padding-top: calc(var(--spacing));
+  padding-bottom: calc(var(--spacing));
   color: var(--white-color);
 }
 
@@ -21,6 +21,12 @@ footer .container {
   gap: 3.6rem;
 }
 
+.footer__logo img {
+  background-color: var(--white-color);
+  padding: 0.7rem;
+  border-radius: 50%;
+}
+
 footer .socials {
   display: flex;
   flex-direction: column;
@@ -36,5 +42,5 @@ footer .socials {
 }
 
 .icon__nav img {
-  width: 3rem;
+  width: 4rem;
 }
