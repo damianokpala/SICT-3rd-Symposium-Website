@@ -7,6 +7,9 @@ import IntroSec from "../components/IntroSec";
 import AboutImageGrid from "../components/AboutImageGrid";
 import AboutMission from "../components/AboutMission";
 import Organizers from "../components/Orgaanizers";
+import Participation from "../components/Participation";
+import Events from "../components/PastEvent";
+import Registers from "../components/Register";
 import Event from "../components/Event";
 import Footer from "../components/Footer";
 
@@ -28,6 +31,9 @@ const About = () => {
           }
         />
         <Organizers />
+        <Participation />
+        <Events />
+        <Registers />
         <Event />
       </main>
       <Footer />

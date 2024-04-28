@@ -1,0 +1,37 @@
+.participation-section {
+  padding: 9rem 0;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+
+  .container > * + * {
+    margin-top: 4rem;
+  }
+
+  h2 {
+    font-size: 3.6rem;
+    text-align: center;
+  }
+
+  p {
+    width: 80%;
+    line-height: 1.8;
+    margin: auto;
+    text-align: center;
+  }
+
+  .grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 8rem;
+
+    .grid {
+      display: block;
+    }
+
+    .grid > * + * {
+      display: block;
+      margin-top: 2rem;
+      text-align: center;
+    }
+  }
+}

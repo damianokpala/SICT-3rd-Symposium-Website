@@ -1,0 +1,11 @@
+.events-section {
+  padding: 9rem 0;
+
+  h2 {
+    font-size: 3.6rem;
+    text-align: center;
+  }
+  .container > * + * {
+    margin-top: 4rem;
+  }
+}

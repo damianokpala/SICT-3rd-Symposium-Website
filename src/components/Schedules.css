@@ -1,0 +1,72 @@
+.schedule-section {
+  padding: 6rem auto;
+
+  .schedule-container {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 5rem;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 5rem;
+
+    h2 {
+      font-size: 3.6rem;
+      text-align: center;
+      margin-top: 2.6rem;
+    }
+
+    > * + * {
+      margin-top: 6.2rem;
+    }
+
+    .agenda {
+      margin-top: 2.8rem;
+      border-radius: 2rem;
+      background-color: var(--white-color);
+      color: var(--primary-color);
+    }
+
+    .agenda > div:first-child {
+      padding: 3.2rem 4rem;
+      display: flex;
+      justify-content: space-between;
+
+      > span:first-child {
+        font-size: 1.8rem;
+        font-weight: bold;
+      }
+
+      img {
+        width: 2.6rem;
+      }
+    }
+
+    .agenda > div:nth-child(2) {
+      margin-left: 4rem;
+      margin-right: 4rem;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      border-top: 1px solid var(--primary-color);
+
+      > div {
+        img {
+          width: 2.4rem;
+        }
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+      }
+    }
+  }
+
+  .grid-2 {
+    p {
+      grid-column: 2 / 3 !important;
+    }
+  }
+}
+.none {
+  display: none;
+}

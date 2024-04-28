@@ -22,21 +22,23 @@ const Header = () => {
               <a href="/about">About</a>
             </li>
             <li>
-              <a href="/about">Symposium Agenda</a>
+              <a href="/agenda">Symposium Agenda</a>
             </li>
             <li>
-              <a href="/about">Speakers</a>
+              <a href="/speakers">Speakers</a>
             </li>
             <li>
-              <a href="/about">Contact Us</a>
+              <a href="/contact">Contact Us</a>
             </li>
           </ul>
         </nav>
 
         <nav className="f-align-center">
           <ul className="nav_cta">
-            <li className="btn register_cta">
-              <a href="/register">Register</a>
+            <li>
+              <a className="btn register_cta" href="/register">
+                Register
+              </a>
             </li>
           </ul>
 

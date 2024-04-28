@@ -1,6 +1,6 @@
 .home_organizers__section {
   padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-bottom: 9rem;
 
   h2 {
     font-size: 3.6rem;
@@ -11,6 +11,7 @@
     display: grid;
     gap: 4rem;
     grid-template-columns: repeat(3, 1fr);
+
     .organizer {
       h3 {
         font-size: 2.8rem;
