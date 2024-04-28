@@ -1,0 +1,134 @@
+.contact_com-section {
+  padding: 7rem 0;
+
+  .container {
+    display: grid;
+    gap: 4rem;
+    grid-template-columns: 2fr 2fr;
+
+    .flow-content > * + * {
+      margin-top: 1rem;
+    }
+
+    .grid {
+      display: grid;
+      gap: 3rem;
+      grid-template-columns: 1fr 1fr;
+    }
+    .contact-com {
+      display: ;
+      img {
+        width: 20rem;
+      }
+    }
+    h3 {
+      font-size: 3rem;
+    }
+
+    .flex {
+      display: flex;
+      gap: 3rem;
+    }
+
+    .align-center {
+      align-items: center;
+    }
+
+    .socials {
+      font-size: 2rem;
+      padding: 1rem 2rem;
+      background-color: var(--primary-color);
+      color: var(--white-color);
+
+      img {
+        width: 4rem;
+      }
+    }
+  }
+
+  .message-form {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 4rem;
+
+    h2 {
+      margin: 0.3rem 0 2rem;
+    }
+
+    .form-group {
+      color: var(--primary-color);
+      padding: 2rem;
+      margin-bottom: 2rem;
+      border-radius: 22px;
+      background-color: var(--white-color);
+
+      label {
+        font-size: 1.6rem;
+        display: block;
+        margin-top: 0.2rem;
+        margin-bottom: 1.4rem;
+      }
+
+      input,
+      select {
+        width: 100%;
+        font: inherit;
+        padding: 1.2rem;
+        border-radius: 16px;
+        border: none;
+        display: block;
+        font-weight: 600;
+        background-color: rgb(243, 217, 217);
+        color: rgb(125, 19, 19);
+      }
+
+      input:focus-visible,
+      select:focus-visible {
+        border-color: var(--primary-color);
+        border: none;
+        outline: none;
+      }
+    }
+
+    .submit-form-group {
+      color: var(--primary-color);
+      padding: 1.3rem 1.6rem;
+      border-radius: 12px;
+      background-color: var(--white-color);
+      margin-left: auto;
+      margin-top: 4rem;
+
+      .submit-text {
+        font-size: 2.3rem;
+        font-weight: 600;
+        color: var(--primary-color);
+        background-color: transparent;
+        border: none;
+      }
+    }
+
+    .messages {
+      width: 100%;
+      font: inherit;
+      padding: 2rem;
+      border-radius: 16px;
+      border: none;
+      display: block;
+      font-weight: 600;
+      background-color: rgb(243, 217, 217);
+      color: rgb(125, 19, 19);
+
+      margin-top: 0.72em;
+    }
+
+    .messages:focus-visible {
+      border: none;
+      outline: none;
+    }
+
+    .submit-text {
+      text-align: center;
+      text-transform: uppercase;
+    }
+  }
+}
