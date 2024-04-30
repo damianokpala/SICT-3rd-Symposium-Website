@@ -10,6 +10,7 @@ import Agenda from "./pages/Agenda";
 import Speakers from "./pages/Speakers";
 import Contact from "./pages/Contact";
 import Register from "./pages/Register";
+import Admin from "./admin";
 
 export default function App() {
   return (
@@ -22,6 +23,7 @@ export default function App() {
         <Route path="/speakers" element={<Speakers />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/admin" element={<Admin />} />
       </Routes>
     </BrowserRouter>
   );
